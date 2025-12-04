@@ -4,7 +4,7 @@ const app = express();
 const cors = require('cors');
 const authRouter = require('./routes/auth');
 const sel3aRouter = require('./routes/sel3a');
-
+// neww bass mysql
 app.use(cors());
 app.use(express.json());
 
